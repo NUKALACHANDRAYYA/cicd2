@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'cicd2',
-                    url: 'https://github.com/NUKALACHANDRAYYA/cicd2.git,
+                    url: 'https://github.com/NUKALACHANDRAYYA/cicd2.git',
                     credentialsId: 'cicd2'
             }
         }
