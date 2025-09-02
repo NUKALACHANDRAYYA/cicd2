@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        DOCKERHUB_USER = 'nukal'
+        DOCKERHUB_USER = 'nukala@chandrayya@profinch.com'
         IMAGE_NAME = "nukalacicd2/jenkins_python_app"
         IMAGE_TAG  = "${V1}"
     }
